@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { Upload, Brain, BarChart3, Shield, Zap, BookOpen } from "lucide-react";
-import Header from "@/components/layout/Header";
+
 import Footer from "@/components/layout/Footer";
 
 export default function HomePage() {
@@ -54,7 +54,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Header />
+      
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-green-50 to-blue-50 py-20">
